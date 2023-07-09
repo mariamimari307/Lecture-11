@@ -1,0 +1,38 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 1203px) {
+    .textareadiv {
+        margin-right: 25px;
+    }
+}
+@media (max-width: 800px) {
+    .myform {
+        flex-direction: column;
+    }
+    .inputsdiv {
+        max-width: 100%;
+    }
+    .textareadiv {
+        margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        margin-bottom: 20px;
+    }
+    .infobox,
+    .infobox2 {
+        text-align: center;
+    }
+    .infobox h3,
+    .infobox2 h3 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .imgwrapper img {
+        width: 70%;
+    }
+}
